@@ -1,0 +1,1245 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Apr 25 20:24:39 2025
+# Process ID         : 10952
+# Current directory  : C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent21452 C:\Users\rohin\OneDrive\Documents\Desktop\lipsi\project_1\project_1.xpr
+# Log file           : C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/vivado.log
+# Journal file       : C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1\vivado.jou
+# Running On         : rohinishraj
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1240P
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 16
+# Host memory        : 8242 MB
+# Swap memory        : 11811 MB
+# Total Virtual      : 20053 MB
+# Available Virtual  : 3417 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.xpr
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-10:part0:1.1 available at C:/Xilinx/Vivado/2024.2/data/boards/board_files/arty-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-20:part0:1.1 available at C:/Xilinx/Vivado/2024.2/data/boards/board_files/arty-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-07s:part0:1.1 available at C:/Xilinx/Vivado/2024.2/data/boards/board_files/cora-z7-07s/B.0/board.xml as part xc7z007sclg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:cora-z7-10:part0:1.1 available at C:/Xilinx/Vivado/2024.2/data/boards/board_files/cora-z7-10/B.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:eclypse-z7:part0:1.0 available at C:/Xilinx/Vivado/2024.2/data/boards/board_files/eclypse-z7/A.0/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:eclypse-z7:part0:1.1 available at C:/Xilinx/Vivado/2024.2/data/boards/board_files/eclypse-z7/B.0/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2024.2/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2024.2/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zedboard:part0:1.1 available at C:/Xilinx/Vivado/2024.2/data/boards/board_files/zedboard/1.3/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo-z7-10:part0:1.2 available at C:/Xilinx/Vivado/2024.2/data/boards/board_files/zybo-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo-z7-20:part0:1.2 available at C:/Xilinx/Vivado/2024.2/data/boards/board_files/zybo-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo:part0:1.0 available at C:/Xilinx/Vivado/2024.2/data/boards/board_files/zybo/B.3/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo:part0:2.0 available at C:/Xilinx/Vivado/2024.2/data/boards/board_files/zybo/B.4/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:34 . Memory (MB): peak = 1255.094 ; gain = 195.910
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'toptb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'toptb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj toptb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Accum.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module accumulator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ctrl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lipsi_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/increm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module incrementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/mux3to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/seven_seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_display
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+WARNING: [VRFC 10-3248] data object 'hundreds' is already declared [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+WARNING: [VRFC 10-9364] second declaration of 'hundreds' is ignored [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/toptb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module toptb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot toptb_behav xil_defaultlib.toptb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot toptb_behav xil_defaultlib.toptb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.seven_segment_display
+Compiling module xil_defaultlib.memory_block
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.incrementer
+Compiling module xil_defaultlib.accumulator
+Compiling module xil_defaultlib.mux3to1
+Compiling module xil_defaultlib.pc_register
+Compiling module xil_defaultlib.lipsi_fsm
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.toptb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot toptb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1288.789 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "toptb_behav -key {Behavioral:sim_1:Functional:toptb} -tclbatch {toptb.tcl} -view {C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/toptb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/toptb_behav.wcfg
+source toptb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 5000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'toptb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 5000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 1297.141 ; gain = 8.352
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.srcs/utils_1/imports/synth_1/top.dcp with file C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.runs/synth_1/top.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Fri Apr 25 20:29:25 2025] Launched synth_1...
+Run output will be captured here: C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.runs/synth_1/runme.log
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: top
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12720
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2743.574 ; gain = 380.109
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-9339] data object 'hundreds' is already declared [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+INFO: [Synth 8-6826] previous declaration of 'hundreds' is from here [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:64]
+CRITICAL WARNING: [Synth 8-11152] second declaration of 'hundreds' is ignored [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+CRITICAL WARNING: [Synth 8-9339] data object 'tens' is already declared [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+INFO: [Synth 8-6826] previous declaration of 'tens' is from here [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:64]
+CRITICAL WARNING: [Synth 8-11152] second declaration of 'tens' is ignored [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+CRITICAL WARNING: [Synth 8-9339] data object 'units' is already declared [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+INFO: [Synth 8-6826] previous declaration of 'units' is from here [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:64]
+CRITICAL WARNING: [Synth 8-11152] second declaration of 'units' is ignored [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'seven_segment_display' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/seven_seg.v:1]
+INFO: [Synth 8-226] default block is never used [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/seven_seg.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'seven_segment_display' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/seven_seg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'memory_block' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/memory.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'memory_block' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/memory.v:3]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ALU.v:4]
+INFO: [Synth 8-226] default block is never used [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ALU.v:24]
+INFO: [Synth 8-226] default block is never used [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ALU.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ALU.v:4]
+INFO: [Synth 8-6157] synthesizing module 'incrementer' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/increm.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'incrementer' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/increm.v:3]
+INFO: [Synth 8-6157] synthesizing module 'accumulator' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Accum.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'accumulator' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Accum.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mux3to1' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/mux3to1.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'mux3to1' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/mux3to1.v:3]
+INFO: [Synth 8-6157] synthesizing module 'pc_register' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/pc.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'pc_register' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/pc.v:3]
+INFO: [Synth 8-6157] synthesizing module 'lipsi_fsm' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ctrl2.v:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ctrl2.v:44]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ctrl2.v:114]
+INFO: [Synth 8-6155] done synthesizing module 'lipsi_fsm' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ctrl2.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:23]
+WARNING: [Synth 8-7129] Port io_in[7] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[6] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[5] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[4] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[3] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[2] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[1] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[0] in module top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2743.574 ; gain = 380.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2743.574 ; gain = 380.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2743.574 ; gain = 380.109
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2743.574 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2743.574 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:30 ; elapsed = 00:00:20 . Memory (MB): peak = 2743.574 ; gain = 380.109
+32 Infos, 8 Warnings, 6 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:33 . Memory (MB): peak = 2743.574 ; gain = 380.109
+launch_simulation -mode post-synthesis -type functional
+Command: launch_simulation  -mode post-synthesis -type functional
+INFO: [Vivado 12-12493] Simulation top is 'toptb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/synth/func/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2743.574 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Basys3_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2743.574 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [SIM-utils-24] Writing simulation netlist file for design 'synth_1'...
+INFO: [SIM-utils-25] write_verilog -mode funcsim -nolib -force -file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/synth/func/xsim/toptb_func_synth.v"
+INFO: [SIM-utils-36] Netlist generated:C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/synth/func/xsim/toptb_func_synth.v
+INFO: [SIM-utils-54] Inspecting design source files for 'toptb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/synth/func/xsim'
+"xvlog --incr --relax -prj toptb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/synth/func/xsim/toptb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module accumulator
+INFO: [VRFC 10-311] analyzing module lipsi_fsm
+INFO: [VRFC 10-311] analyzing module memory_block
+INFO: [VRFC 10-311] analyzing module pc_register
+INFO: [VRFC 10-311] analyzing module seven_segment_display
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/toptb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module toptb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/synth/func/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot toptb_func_synth xil_defaultlib.toptb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot toptb_func_synth xil_defaultlib.toptb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module xil_defaultlib.accumulator
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module xil_defaultlib.seven_segment_display
+Compiling module xil_defaultlib.lipsi_fsm
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(READ_WIDTH_A=...
+Compiling module unisims_ver.RAMB18E1(INIT_00=256'b0100000010...
+Compiling module xil_defaultlib.memory_block
+Compiling module xil_defaultlib.pc_register
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.toptb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot toptb_func_synth
+run_program: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2978.199 ; gain = 234.625
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/synth/func/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "toptb_func_synth -key {Post-Synthesis:sim_1:Functional:toptb} -tclbatch {toptb.tcl} -view {C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/toptb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/toptb_behav.wcfg
+WARNING: Simulation object /toptb/uut/wr_add was not found in the design.
+source toptb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 5000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'toptb_func_synth' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 5000ns
+launch_simulation: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2998.422 ; gain = 254.848
+synth_design -top top -part xc7a35tcpg236-1 -lint 
+Command: synth_design -top top -part xc7a35tcpg236-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'source' was cancelled
+INFO: [Common 17-83] Releasing license: Synthesis
+5 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+INFO: [Common 17-344] 'synth_design' was cancelled
+launch_runs impl_1 -jobs 8
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 3109.988 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 3109.988 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3110.145 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 3110.145 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3110.145 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 3110.145 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 3110.145 ; gain = 0.156
+[Fri Apr 25 20:31:53 2025] Launched impl_1...
+Run output will be captured here: C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -mode post-implementation -type functional
+Command: launch_simulation  -mode post-implementation -type functional
+INFO: [Vivado 12-12493] Simulation top is 'toptb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching post-implementation functional simulation in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 3214.844 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 3222.637 ; gain = 0.000
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3319.816 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 3319.816 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 3319.816 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3319.816 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 3319.816 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 3319.816 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 3319.816 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3319.816 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [SIM-utils-31] Writing simulation netlist file for design 'impl_1'...
+INFO: [SIM-utils-32] write_verilog -mode funcsim -nolib -force -file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim/toptb_func_impl.v"
+INFO: [SIM-utils-36] Netlist generated:C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim/toptb_func_impl.v
+INFO: [SIM-utils-54] Inspecting design source files for 'toptb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim'
+"xvlog --incr --relax -prj toptb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim/toptb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module accumulator
+INFO: [VRFC 10-311] analyzing module lipsi_fsm
+INFO: [VRFC 10-311] analyzing module memory_block
+INFO: [VRFC 10-311] analyzing module pc_register
+INFO: [VRFC 10-311] analyzing module seven_segment_display
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/toptb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module toptb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot toptb_func_impl xil_defaultlib.toptb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot toptb_func_impl xil_defaultlib.toptb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module xil_defaultlib.accumulator
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module xil_defaultlib.seven_segment_display
+Compiling module xil_defaultlib.lipsi_fsm
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(READ_WIDTH_A=...
+Compiling module unisims_ver.RAMB18E1(INIT_00=256'b0100000010...
+Compiling module xil_defaultlib.memory_block
+Compiling module xil_defaultlib.pc_register
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.toptb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot toptb_func_impl
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 3319.816 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "toptb_func_impl -key {Post-Implementation:sim_1:Functional:toptb} -tclbatch {toptb.tcl} -view {C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/toptb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/toptb_behav.wcfg
+WARNING: Simulation object /toptb/uut/wr_add was not found in the design.
+source toptb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 5000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'toptb_func_impl' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 5000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 3319.816 ; gain = 104.973
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'toptb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'toptb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim/simulate.log"
+close_design
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'toptb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim/simulate.log"
+close_design
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'toptb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim/simulate.log"
+refresh_design
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 3573.871 ; gain = 0.000
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-9339] data object 'hundreds' is already declared [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+INFO: [Synth 8-6826] previous declaration of 'hundreds' is from here [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:64]
+CRITICAL WARNING: [Synth 8-11152] second declaration of 'hundreds' is ignored [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+CRITICAL WARNING: [Synth 8-9339] data object 'tens' is already declared [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+INFO: [Synth 8-6826] previous declaration of 'tens' is from here [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:64]
+CRITICAL WARNING: [Synth 8-11152] second declaration of 'tens' is ignored [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+CRITICAL WARNING: [Synth 8-9339] data object 'units' is already declared [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+INFO: [Synth 8-6826] previous declaration of 'units' is from here [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:64]
+CRITICAL WARNING: [Synth 8-11152] second declaration of 'units' is ignored [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'seven_segment_display' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/seven_seg.v:1]
+INFO: [Synth 8-226] default block is never used [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/seven_seg.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'seven_segment_display' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/seven_seg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'memory_block' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/memory.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'memory_block' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/memory.v:3]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ALU.v:4]
+INFO: [Synth 8-226] default block is never used [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ALU.v:24]
+INFO: [Synth 8-226] default block is never used [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ALU.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ALU.v:4]
+INFO: [Synth 8-6157] synthesizing module 'incrementer' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/increm.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'incrementer' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/increm.v:3]
+INFO: [Synth 8-6157] synthesizing module 'accumulator' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Accum.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'accumulator' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Accum.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mux3to1' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/mux3to1.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'mux3to1' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/mux3to1.v:3]
+INFO: [Synth 8-6157] synthesizing module 'pc_register' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/pc.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'pc_register' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/pc.v:3]
+INFO: [Synth 8-6157] synthesizing module 'lipsi_fsm' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ctrl2.v:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ctrl2.v:44]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ctrl2.v:114]
+INFO: [Synth 8-6155] done synthesizing module 'lipsi_fsm' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ctrl2.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:23]
+WARNING: [Synth 8-7129] Port io_in[7] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[6] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[5] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[4] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[3] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[2] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[1] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[0] in module top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3573.871 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3573.871 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3573.871 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 3573.871 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 3573.871 ; gain = 0.000
+close_design
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'toptb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'toptb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj toptb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Accum.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module accumulator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ctrl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lipsi_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/increm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module incrementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/mux3to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/seven_seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_display
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+WARNING: [VRFC 10-3248] data object 'hundreds' is already declared [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+WARNING: [VRFC 10-9364] second declaration of 'hundreds' is ignored [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/toptb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module toptb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot toptb_behav xil_defaultlib.toptb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot toptb_behav xil_defaultlib.toptb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.seven_segment_display
+Compiling module xil_defaultlib.memory_block
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.incrementer
+Compiling module xil_defaultlib.accumulator
+Compiling module xil_defaultlib.mux3to1
+Compiling module xil_defaultlib.pc_register
+Compiling module xil_defaultlib.lipsi_fsm
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.toptb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot toptb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "toptb_behav -key {Behavioral:sim_1:Functional:toptb} -tclbatch {toptb.tcl} -view {C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/toptb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/toptb_behav.wcfg
+source toptb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 5000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'toptb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 5000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 3573.871 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.srcs/utils_1/imports/synth_1/top.dcp with file C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.runs/synth_1/top.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Apr 25 20:35:37 2025] Launched synth_1...
+Run output will be captured here: C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.runs/synth_1/runme.log
+[Fri Apr 25 20:35:37 2025] Launched impl_1...
+Run output will be captured here: C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.runs/impl_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 3573.871 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Basys3_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3573.871 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+launch_simulation -mode post-implementation -type functional
+Command: launch_simulation  -mode post-implementation -type functional
+INFO: [Vivado 12-12493] Simulation top is 'toptb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching post-implementation functional simulation in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 3573.871 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 3573.871 ; gain = 0.000
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3573.871 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 3573.871 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 3573.871 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3573.871 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 3573.871 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.054 . Memory (MB): peak = 3573.871 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 3573.871 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3573.871 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [SIM-utils-31] Writing simulation netlist file for design 'impl_1'...
+INFO: [SIM-utils-32] write_verilog -mode funcsim -nolib -force -file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim/toptb_func_impl.v"
+INFO: [SIM-utils-36] Netlist generated:C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim/toptb_func_impl.v
+INFO: [SIM-utils-54] Inspecting design source files for 'toptb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim'
+"xvlog --incr --relax -prj toptb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim/toptb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module accumulator
+INFO: [VRFC 10-311] analyzing module lipsi_fsm
+INFO: [VRFC 10-311] analyzing module memory_block
+INFO: [VRFC 10-311] analyzing module pc_register
+INFO: [VRFC 10-311] analyzing module seven_segment_display
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/toptb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module toptb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot toptb_func_impl xil_defaultlib.toptb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot toptb_func_impl xil_defaultlib.toptb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module xil_defaultlib.accumulator
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module xil_defaultlib.seven_segment_display
+Compiling module xil_defaultlib.lipsi_fsm
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(READ_WIDTH_A=...
+Compiling module unisims_ver.RAMB18E1(INIT_00=256'b0111001000...
+Compiling module xil_defaultlib.memory_block
+Compiling module xil_defaultlib.pc_register
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.toptb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot toptb_func_impl
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 3573.871 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "toptb_func_impl -key {Post-Implementation:sim_1:Functional:toptb} -tclbatch {toptb.tcl} -view {C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/toptb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/toptb_behav.wcfg
+WARNING: Simulation object /toptb/uut/wr_add was not found in the design.
+source toptb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 5000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'toptb_func_impl' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 5000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:16 . Memory (MB): peak = 3573.871 ; gain = 0.000
+current_sim simulation_4
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'toptb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim/simulate.log"
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2024.2
+  **** Build date : Oct 29 2024 at 10:25:41
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2024.2.0
+  ****** Build date   : Oct 30 2024-23:49:07
+    **** Build number : 2024.2.1730312347
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 3573.871 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AA110AA
+set_property PROGRAM.FILE {C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.srcs/utils_1/imports/synth_1/top.dcp with file C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.runs/synth_1/top.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Apr 25 20:44:03 2025] Launched synth_1...
+Run output will be captured here: C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.runs/synth_1/runme.log
+[Fri Apr 25 20:44:03 2025] Launched impl_1...
+Run output will be captured here: C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AA110AA
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_design
+launch_simulation -mode post-implementation -type functional
+Command: launch_simulation  -mode post-implementation -type functional
+INFO: [Vivado 12-12493] Simulation top is 'toptb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching post-implementation functional simulation in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3573.871 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 3573.871 ; gain = 0.000
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3573.871 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 3573.871 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 3573.871 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3573.871 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.054 . Memory (MB): peak = 3573.871 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.088 . Memory (MB): peak = 3573.871 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.089 . Memory (MB): peak = 3573.871 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3573.871 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [SIM-utils-31] Writing simulation netlist file for design 'impl_1'...
+INFO: [SIM-utils-32] write_verilog -mode funcsim -nolib -force -file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim/toptb_func_impl.v"
+INFO: [SIM-utils-36] Netlist generated:C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim/toptb_func_impl.v
+INFO: [SIM-utils-54] Inspecting design source files for 'toptb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim'
+"xvlog --incr --relax -prj toptb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim/toptb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module accumulator
+INFO: [VRFC 10-311] analyzing module lipsi_fsm
+INFO: [VRFC 10-311] analyzing module memory_block
+INFO: [VRFC 10-311] analyzing module pc_register
+INFO: [VRFC 10-311] analyzing module seven_segment_display
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/toptb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module toptb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot toptb_func_impl xil_defaultlib.toptb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot toptb_func_impl xil_defaultlib.toptb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module xil_defaultlib.accumulator
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module xil_defaultlib.seven_segment_display
+Compiling module xil_defaultlib.lipsi_fsm
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(READ_WIDTH_A=...
+Compiling module unisims_ver.RAMB18E1(INIT_00=256'b0111001000...
+Compiling module xil_defaultlib.memory_block
+Compiling module xil_defaultlib.pc_register
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.toptb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot toptb_func_impl
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 3667.430 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/impl/func/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "toptb_func_impl -key {Post-Implementation:sim_1:Functional:toptb} -tclbatch {toptb.tcl} -view {C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/toptb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/toptb_behav.wcfg
+WARNING: Simulation object /toptb/uut/wr_add was not found in the design.
+source toptb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 5000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'toptb_func_impl' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 5000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 3690.379 ; gain = 116.508
+current_design synth_1
+close_design
+launch_simulation -mode post-synthesis -type functional
+Command: launch_simulation  -mode post-synthesis -type functional
+INFO: [Vivado 12-12493] Simulation top is 'toptb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching post-synthesis functional simulation in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/synth/func/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3690.379 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Basys3_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3690.379 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [SIM-utils-24] Writing simulation netlist file for design 'synth_1'...
+INFO: [SIM-utils-25] write_verilog -mode funcsim -nolib -force -file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/synth/func/xsim/toptb_func_synth.v"
+INFO: [SIM-utils-36] Netlist generated:C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/synth/func/xsim/toptb_func_synth.v
+INFO: [SIM-utils-54] Inspecting design source files for 'toptb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/synth/func/xsim'
+"xvlog --incr --relax -prj toptb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/synth/func/xsim/toptb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module accumulator
+INFO: [VRFC 10-311] analyzing module lipsi_fsm
+INFO: [VRFC 10-311] analyzing module memory_block
+INFO: [VRFC 10-311] analyzing module pc_register
+INFO: [VRFC 10-311] analyzing module seven_segment_display
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/toptb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module toptb
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/synth/func/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot toptb_func_synth xil_defaultlib.toptb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot toptb_func_synth xil_defaultlib.toptb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module xil_defaultlib.accumulator
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module xil_defaultlib.seven_segment_display
+Compiling module xil_defaultlib.lipsi_fsm
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(READ_WIDTH_A=...
+Compiling module unisims_ver.RAMB18E1(INIT_00=256'b0111001000...
+Compiling module xil_defaultlib.memory_block
+Compiling module xil_defaultlib.pc_register
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.toptb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot toptb_func_synth
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/synth/func/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "toptb_func_synth -key {Post-Synthesis:sim_1:Functional:toptb} -tclbatch {toptb.tcl} -view {C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/toptb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/toptb_behav.wcfg
+WARNING: Simulation object /toptb/uut/wr_add was not found in the design.
+source toptb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 5000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'toptb_func_synth' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 5000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 3690.379 ; gain = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'toptb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'toptb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj toptb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Accum.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module accumulator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ctrl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lipsi_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/increm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module incrementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/mux3to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/seven_seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_display
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+WARNING: [VRFC 10-3248] data object 'hundreds' is already declared [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+WARNING: [VRFC 10-9364] second declaration of 'hundreds' is ignored [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/toptb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module toptb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot toptb_behav xil_defaultlib.toptb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot toptb_behav xil_defaultlib.toptb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.seven_segment_display
+Compiling module xil_defaultlib.memory_block
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.incrementer
+Compiling module xil_defaultlib.accumulator
+Compiling module xil_defaultlib.mux3to1
+Compiling module xil_defaultlib.pc_register
+Compiling module xil_defaultlib.lipsi_fsm
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.toptb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot toptb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "toptb_behav -key {Behavioral:sim_1:Functional:toptb} -tclbatch {toptb.tcl} -view {C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/toptb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/toptb_behav.wcfg
+source toptb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 5000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'toptb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 5000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 3690.379 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'toptb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'toptb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj toptb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Accum.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module accumulator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/ctrl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lipsi_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/increm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module incrementer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/mux3to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/seven_seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_display
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+WARNING: [VRFC 10-3248] data object 'hundreds' is already declared [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+WARNING: [VRFC 10-9364] second declaration of 'hundreds' is ignored [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/top.v:65]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/toptb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module toptb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot toptb_behav xil_defaultlib.toptb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot toptb_behav xil_defaultlib.toptb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.seven_segment_display
+Compiling module xil_defaultlib.memory_block
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.incrementer
+Compiling module xil_defaultlib.accumulator
+Compiling module xil_defaultlib.mux3to1
+Compiling module xil_defaultlib.pc_register
+Compiling module xil_defaultlib.lipsi_fsm
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.toptb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot toptb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "toptb_behav -key {Behavioral:sim_1:Functional:toptb} -tclbatch {toptb.tcl} -view {C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/toptb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/project_1/toptb_behav.wcfg
+source toptb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 5000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'toptb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 5000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 3690.379 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+current_sim simulation_7
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 25 20:48:57 2025...

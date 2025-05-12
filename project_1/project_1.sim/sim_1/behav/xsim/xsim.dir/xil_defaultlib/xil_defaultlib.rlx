@@ -1,0 +1,15 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/ALU.v,1745489610,verilog,,C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/Accum.v,,alu,,,,,,,,
+C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/Accum.v,1745531752,verilog,,C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/ctrl2.v,,accumulator,,,,,,,,
+C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/ctrl2.v,1745531752,verilog,,C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/increm.v,,lipsi_fsm,,,,,,,,
+C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/increm.v,1745489609,verilog,,C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/memory.v,,incrementer,,,,,,,,
+C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/memory.v,1745649780,verilog,,C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/mux3to1.v,,memory_block,,,,,,,,
+C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/mux3to1.v,1745489609,verilog,,C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/pc.v,,mux3to1,,,,,,,,
+C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/pc.v,1745531752,verilog,,C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/seven_seg.v,,pc_register,,,,,,,,
+C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/seven_seg.v,1745534202,verilog,,C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/top.v,,seven_segment_display,,,,,,,,
+C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/top.v,1745604355,verilog,,C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/toptb.v,,top,,,,,,,,
+C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/toptb.v,1745603966,verilog,,,,toptb,,,,,,,,

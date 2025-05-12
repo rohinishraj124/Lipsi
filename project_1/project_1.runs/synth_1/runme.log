@@ -1,0 +1,334 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Sat Apr 26 12:55:14 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/project_1/project_1.srcs/utils_1/imports/synth_1/top.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/project_1/project_1.srcs/utils_1/imports/synth_1/top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 26132
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1028.773 ; gain = 466.578
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'seven_segment_display' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/seven_seg.v:1]
+INFO: [Synth 8-226] default block is never used [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/seven_seg.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'seven_segment_display' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/seven_seg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'memory_block' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/memory.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'memory_block' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/memory.v:3]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/ALU.v:4]
+INFO: [Synth 8-226] default block is never used [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/ALU.v:24]
+INFO: [Synth 8-226] default block is never used [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/ALU.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/ALU.v:4]
+INFO: [Synth 8-6157] synthesizing module 'incrementer' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/increm.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'incrementer' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/increm.v:3]
+INFO: [Synth 8-6157] synthesizing module 'accumulator' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/Accum.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'accumulator' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/Accum.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mux3to1' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/mux3to1.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'mux3to1' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/mux3to1.v:3]
+INFO: [Synth 8-6157] synthesizing module 'pc_register' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/pc.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'pc_register' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/pc.v:3]
+INFO: [Synth 8-6157] synthesizing module 'lipsi_fsm' [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/ctrl2.v:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/ctrl2.v:44]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/ctrl2.v:114]
+INFO: [Synth 8-6155] done synthesizing module 'lipsi_fsm' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/ctrl2.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/top.v:23]
+WARNING: [Synth 8-7129] Port io_in[7] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[6] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[5] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[4] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[3] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[2] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[1] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[0] in module top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1137.379 ; gain = 575.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1137.379 ; gain = 575.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1137.379 ; gain = 575.184
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1137.379 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1220.461 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1220.461 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1220.461 ; gain = 658.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1220.461 ; gain = 658.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1220.461 ; gain = 658.266
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'lipsi_fsm'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             INSTRUCTION |                              000 |                             0000
+                    LOAD |                              001 |                             0110
+                     ALU |                              010 |                             0001
+                   STORE |                              011 |                             0100
+                  BRANCH |                              100 |                             0101
+                 BRANCHN |                              101 |                             0011
+                 BRANCHZ |                              110 |                             0111
+                      IO |                              111 |                             0010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'lipsi_fsm'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1220.461 ; gain = 658.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input    9 Bit       Adders := 3     
+	   4 Input    9 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      8 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 4     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---RAMs : 
+	               4K Bit	(512 X 8 bit)          RAMs := 1     
++---Muxes : 
+	   4 Input    9 Bit        Muxes := 1     
+	   8 Input    9 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 2     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 3     
+	   4 Input    4 Bit        Muxes := 2     
+	   9 Input    3 Bit        Muxes := 2     
+	   8 Input    3 Bit        Muxes := 2     
+	   3 Input    3 Bit        Muxes := 1     
+	   9 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 2     
+	   8 Input    2 Bit        Muxes := 1     
+	   9 Input    1 Bit        Muxes := 6     
+	   8 Input    1 Bit        Muxes := 7     
+	   2 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design top has port dp driven by constant 1
+WARNING: [Synth 8-7129] Port io_in[7] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[6] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[5] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[4] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[3] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[2] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[1] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port io_in[0] in module top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1220.461 ; gain = 658.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|top         | m1/mem_reg | 512 x 8(READ_FIRST)    | W |   | 512 x 8(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1334.816 ; gain = 772.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1375.574 ; gain = 813.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|top         | m1/mem_reg | 512 x 8(READ_FIRST)    | W |   | 512 x 8(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance m1/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1377.984 ; gain = 815.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1568.184 ; gain = 1005.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1568.184 ; gain = 1005.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1568.184 ; gain = 1005.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1568.184 ; gain = 1005.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1569.152 ; gain = 1006.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1569.152 ; gain = 1006.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |    20|
+|3     |LUT1     |     9|
+|4     |LUT2     |    48|
+|5     |LUT3     |    15|
+|6     |LUT4     |    20|
+|7     |LUT5     |    22|
+|8     |LUT6     |    56|
+|9     |RAMB18E1 |     1|
+|10    |FDRE     |    49|
+|11    |IBUF     |     2|
+|12    |OBUF     |    20|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1569.152 ; gain = 1006.957
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 1569.152 ; gain = 923.875
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 1569.152 ; gain = 1006.957
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1578.371 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1582.023 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 1cec878
+INFO: [Common 17-83] Releasing license: Synthesis
+47 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:37 . Memory (MB): peak = 1582.023 ; gain = 1209.406
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 1582.023 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/rohin/OneDrive/Documents/Desktop/lipsi/Lipsi_with_seven_seg/project_1/project_1.runs/synth_1/top.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 26 12:56:01 2025...
